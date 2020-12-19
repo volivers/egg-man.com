@@ -1,0 +1,140 @@
+$bck-img: 'https://images.unsplash.com/photo-1533122250115-6bb28e9a48c3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80';
+$borderR: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  background: $white;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+
+  h1 {
+    font-size: 64px;
+    text-align: center;
+    line-height: 0.5;
+    margin: 32px 0 0;
+    sup {
+      font-size: 8px;
+      margin: 24px 0 0;
+      display: inline-block;
+      vertical-align: text-top;
+    }
+  }
+}
+
+.intro {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.intro-text {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .intro-btn {
+    margin-top: 50px;
+  }
+}
+
+.intro-text-title {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  p {
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    line-height: 2;
+    margin: 20px 0 20px 0;
+    }
+
+  .intro-text-title-img {
+    background: url($bck-img) no-repeat center center;
+    border-radius: $borderR;
+    width: 100px;
+    height: 130px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+  }
+}
+
+.intro-text-grid {
+  width: 100%;
+  height: 40%;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-evenly;
+
+  .intro-text-grid-item {
+    img {
+      margin: auto;
+      display: block;
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+    p {
+      font-size: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.intro-img {
+  background: url($bck-img) no-repeat center center;
+  background-size: cover;
+  width: 40%;
+  height: 100%;
+  margin: 0 -1px 0 0;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .intro-img-logo {
+    background: $white;
+    border-radius: $borderR;
+    width: 100px;
+    height: 130px;
+    margin: auto;
+    display: block;
+  }
+  p {
+    color: $white;
+    font-family: $headers-font;
+    font-size: 18px;
+    text-align: right; 
+    width: 100%;
+    sup {
+      color: inherit;
+      font-size: 4px;
+      vertical-align: super;
+      display: inline-block;
+      margin: 24px 2px 0;
+    }
+  }
+}

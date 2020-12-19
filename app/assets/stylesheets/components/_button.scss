@@ -1,0 +1,50 @@
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-ghost {
+  color: $angular-black-75;
+  border: 1px solid $angular-black-75;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  color: $angular-black-75;
+  opacity: 1;
+}
+
+.btn-ghost-white {
+  color: $white-38;
+  border: 1px solid $white-38;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    color: $white-38;
+    opacity: 1;
+  }
+}
+
+.btn-flat {
+  background: $angular-black-75;
+  color: $white;
+  border: 1px solid $angular-black-75;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: $white;
+    color: $angular-black-75;
+  }
+}
