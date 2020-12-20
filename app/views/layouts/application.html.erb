@@ -4,7 +4,7 @@
     <title>volivers • the egg man</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link rel='shortcut icon' type='image/x-icon' href='https://res.cloudinary.com/djlmbrvcx/image/upload/v1608416849/clipart2914864_puz458.png' />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
@@ -12,6 +12,14 @@
   </head>
 
   <body>
+    <% if action_name != 'intro' %>
+      <%= render 'shared/navbar' %>
+    <% end %>
+
     <%= yield %>
+
+    <% if action_name != 'intro' %>
+      <%= render 'shared/footer' %>
+    <% end %>
   </body>
 </html>

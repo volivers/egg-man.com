@@ -1,0 +1,27 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: none;
+
+  h1 {
+    color: $angular-black-75;
+    sup {
+      font-size: 8px;
+      margin: 24px 0 0;
+      display: inline-block;
+      vertical-align: text-top;
+    }
+    .dot {
+      vertical-align: middle;
+      color: $yolk-yellow;
+      margin: 0 3px;
+    }
+  }
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}

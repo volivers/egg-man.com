@@ -1,5 +1,4 @@
 .btn {
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
@@ -36,6 +35,7 @@
 .btn-flat {
   background: $angular-black-75;
   color: $white;
+  text-transform: lowercase;
   border: 1px solid $angular-black-75;
   padding: 8px 24px;
   border-radius: 50px;

@@ -1,0 +1,28 @@
+.footer {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+}
+.footer-copyright p {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.footer-links {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-links a {
+  color: $primary;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
