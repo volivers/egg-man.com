@@ -10,17 +10,26 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <h1><%= link_to "about", pages_home_path, class: "nav-link" %></h1>
+        <h1><%= link_to "about", pages_about_path, class: "nav-link" %></h1>
       </li>
 
       <li class="nav-item">
-        <h1><%= link_to "work", pages_home_path, class: "nav-link" %></h1>
+        <h1><%= link_to "work", projects_path, class: "nav-link" %></h1>
       </li>
 
-      <li class="nav-item">
-        <h1><%= link_to "contact", pages_home_path, class: "nav-link" %></h1>
-      </li>
-
+      <% if action_name == 'home' %>
+        <li class="nav-item">
+          <h1><%= link_to "contact", pages_contact_path, class: "nav-link white" %></h1>
+        </li>
+      <% elsif controller_name == 'projects' %>
+        <li class="nav-item">
+          <h1><%= link_to "contact", pages_contact_path, class: "nav-link white" %></h1>
+        </li>
+      <% else %>
+        <li class="nav-item">
+          <h1><%= link_to "contact", pages_contact_path, class: "nav-link" %></h1>
+        </li>
+      <% end %>
     </ul>
   </div>
 </div>
