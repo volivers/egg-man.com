@@ -1,6 +1,7 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: none;
+  margin: 10px 30px 0 40px;
 
   h1 {
     color: $angular-black-75;
@@ -20,8 +21,17 @@
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+  margin-left: 40px;
 }
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.nav-item {
+  margin-right: 10px;
+
+  &:nth-child(3) {
+    margin-right: 0;
+  }
 }

@@ -1,15 +1,19 @@
 .footer {
+  width: 100%;
   background: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
   padding: 0px 50px;
+  position: fixed;
+  bottom: 0;
 }
 .footer-copyright p {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
+    margin-top: 15px;
 }
 .footer-links {
   width: 12%;
@@ -18,11 +22,13 @@
   justify-content: space-around;
 }
 .footer-links a {
-  color: $primary;
+  color: $angular-black-75;
   text-decoration: none;
   font-size: 20px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
-  opacity: 1;
+  color: $yolk-yellow;
+  transform: rotate(360deg);
+  transition: all ease 0.5s;
 }
