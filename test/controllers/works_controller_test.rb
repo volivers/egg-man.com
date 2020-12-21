@@ -1,13 +1,13 @@
 require 'test_helper'
 
-class ProjectsControllerTest < ActionDispatch::IntegrationTest
+class WorksControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get projects_index_url
+    get works_index_url
     assert_response :success
   end
 
   test "should get show" do
-    get projects_show_url
+    get works_show_url
     assert_response :success
   end
 

@@ -14,7 +14,7 @@ main {
     height: 195px;
     background: url($bck-img) no-repeat left center;
     border-radius: 0 0 0 100%;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
   }
