@@ -17,19 +17,9 @@
         <h1><%= link_to "work", projects_path, class: "nav-link" %></h1>
       </li>
 
-      <% if action_name == 'home' %>
-        <li class="nav-item">
-          <h1><%= link_to "contact", pages_contact_path, class: "nav-link white" %></h1>
-        </li>
-      <% elsif controller_name == 'projects' %>
-        <li class="nav-item">
-          <h1><%= link_to "contact", pages_contact_path, class: "nav-link white" %></h1>
-        </li>
-      <% else %>
-        <li class="nav-item">
-          <h1><%= link_to "contact", pages_contact_path, class: "nav-link" %></h1>
-        </li>
-      <% end %>
+      <li class="nav-item">
+        <h1><%= link_to "contact", pages_contact_path, class: "nav-link white" %></h1>
+      </li>
     </ul>
   </div>
 </div>

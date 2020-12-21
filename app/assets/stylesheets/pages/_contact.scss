@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background: $white;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+
+  .navbar-sidemark {
+    width: 195px;
+    height: 195px;
+    background: url($bck-img) no-repeat left center;
+    border-radius: 0 0 0 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main-content {
+      width: 60%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .contact-title {
+        width: 60%;
+        h1 {
+          text-align: left;
+          margin: 50px 0 100px 0;
+        }
+        p {
+          letter-spacing: 1px;
+          width: 85%;
+          margin-bottom: 40px;
+        }
+        .contact-info p {
+          font-size: 14px;
+          text-transform: uppercase;
+          letter-spacing: 0.2rem;
+          line-height: 1.6rem;
+          i {
+            margin-right: 5px;
+          }
+        }
+      }
+
+      .intro-text-grid {
+        width: 80%;
+        height: 20%;
+        padding: 16px 32px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+      
+        .intro-text-grid-item {
+          img {
+            margin: auto;
+            display: block;
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+          }
+          p {
+            font-size: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+  }
+}
