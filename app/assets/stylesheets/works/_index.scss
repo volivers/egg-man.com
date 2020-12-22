@@ -19,7 +19,7 @@ main {
   //   top: 0;
   // }
 
-  .about {
+  .work {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,40 +30,20 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 65px;
-      padding-top: 100px;
+      margin: 0;
 
-      .bio {
-        width: 50%;
+      .work-grid {
+        width: 60%;
         h1 {
           text-align: left;
-          margin: 50px 0 100px 0;
+          margin-bottom: 90px;
         }
         p {
           font-size: 14px;
           letter-spacing: 1px;
         }
 
-        .note {
-          color: $yolk-yellow;
-          font-weight: bold;
-        }
-        .footnote {
-          text-transform: uppercase;
-          letter-spacing: 0.2rem;
-          margin: 40px 0 100px 0;
-        }
-        .avatar {
-          float: right;
-          height: 350px;
-          width: 350px;
-          background: url($profile-img) no-repeat center center;
-          background-size: cover;
-          border-radius: 100%;
-          shape-outside: circle(50%);
-          shape-margin: 5px;
-          margin: 0 0 5px 5px;
-        }
+
       }
     }
   }
