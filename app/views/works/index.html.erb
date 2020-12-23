@@ -1,3 +1,9 @@
+<%= render 'shared/work_1_modal' %>
+<%= render 'shared/work_2_modal' %>
+<%= render 'shared/work_3_modal' %>
+<%= render 'shared/work_4_modal' %>
+<%= render 'shared/work_5_modal' %>
+
 <main>
   <section class="work">
     <div class="navbar-sidemark"></div>
@@ -5,18 +11,65 @@
       <div class="work-grid">
         <h1 class="section-title">latest work</h1>
         <div class="cards">
-
           <% if @works.any? %>
-            <% @works.each do |work| %>
-              <div class="card-category" style="">
-                <div class="grid-overlay">
-                  <h1 class="card-title"><%= work.title %></h1>
-                  <%= link_to "Details", pages_home_path, {:class=>'btn btn-ghost-white'} %>
-                </div>
-              </div>
-            <% end %>
-          <% end %>
 
+            <!-- Card 1 -->          
+            <div class="card-category">
+              <div class="grid-overlay">
+                <h1 class="card-title"><%= @work_1.title.downcase %></h1>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-ghost-white" data-toggle="modal" data-target="#workModal_1">
+                  Details
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 2 -->          
+            <div class="card-category">
+              <div class="grid-overlay">
+                <h1 class="card-title"><%= @work_2.title.downcase %></h1>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-ghost-white" data-toggle="modal" data-target="#workModal_2">
+                  Details
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 3 -->          
+            <div class="card-category">
+              <div class="grid-overlay">
+                <h1 class="card-title"><%= @work_3.title.downcase %></h1>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-ghost-white" data-toggle="modal" data-target="#workModal_3">
+                  Details
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 4 -->          
+            <div class="card-category">
+              <div class="grid-overlay">
+                <h1 class="card-title"><%= @work_4.title.downcase %></h1>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-ghost-white" data-toggle="modal" data-target="#workModal_4">
+                  Details
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 5 -->          
+            <div class="card-category">
+              <div class="grid-overlay">
+                <h1 class="card-title"><%= @work_5.title.downcase %></h1>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-ghost-white" data-toggle="modal" data-target="#workModal_5">
+                  Details
+                </button>
+              </div>
+            </div>
+
+          <% end %>
+          <!-- Card 6 -->
           <div class="card-category" style="background: url(https://images.unsplash.com/photo-1536338546286-31cc3e7348b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80) no-repeat center center">
             <%= link_to "View more", pages_home_path, {:class=>'btn btn-ghost-white'} %>
           </div>

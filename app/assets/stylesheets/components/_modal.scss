@@ -1,0 +1,33 @@
+.modal-content {
+  border-radius: 10px;
+
+  p {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .work-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .content-left {
+      width: 140%;
+      margin-right: 60px;
+    }
+
+
+    .work-label {
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      margin-bottom: 5px;
+    }
+  }
+
+  .work-extras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+  }
+}

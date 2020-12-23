@@ -1,0 +1,39 @@
+<!-- Modal 5 -->
+<div class="modal fade" id="workModal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header mx-2">
+        <h1 class="modal-title mt-4 mb-2 ml-3" id="exampleModalLongTitle"><%= @work_5.title.downcase %></h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-4">
+
+        <div class="work-content">
+          <div class="content-left">
+            <p><%= @work_5.description %></p>
+          </div>
+
+          <div class="content-right">
+            <p class="work-label">Client</p>
+            <p><%= @work_5.client %></p>
+
+            <p class="work-label">Role</p>
+            <p><%= @work_5.role %></p>
+
+            <p class="work-label">Technologies</p>
+            <% @work_5.technologies.each do |keyword| %>
+              <span class="badge badge-pill badge-info"><%= keyword %></span>
+            <% end %>
+          </div>
+        </div>
+
+        <div class="work-extras">
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
