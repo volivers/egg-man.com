@@ -15,16 +15,6 @@ main {
     align-items: center;
     position: relative;
 
-    .navbar-sidemark {
-      width: 195px;
-      height: 195px;
-      background: url($bck-img) no-repeat left center;
-      border-radius: 0 0 0 100%;
-      position: fixed;
-      right: 0;
-      top: 0;
-    }
-
     .main-brackets h1 {
       font-size: 400px;
       text-align: center;

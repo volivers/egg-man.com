@@ -15,16 +15,6 @@ main {
   width: 100%;
   margin: auto;
 
-  // .navbar-sidemark {
-  //   width: 195px;
-  //   height: 195px;
-  //   background: url($bck-img) no-repeat left center;
-  //   border-radius: 0 0 0 100%;
-  //   position: fixed;
-  //   right: 0;
-  //   top: 0;
-  // }
-
   .work {
     display: flex;
     justify-content: center;
@@ -42,7 +32,7 @@ main {
         width: 60%;
         .section-title {
           text-align: left;
-          margin-bottom: 90px;
+          margin-bottom: 60px;
         }
 
         .card-category:nth-child(1) {
