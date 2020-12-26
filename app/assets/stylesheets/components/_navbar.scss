@@ -1,7 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: $white;
-  // margin: 10px 30px 0 40px;
 
   h1 {
     color: $angular-black-75;
@@ -39,6 +38,10 @@
   &:nth-child(3) {
     margin-right: 0;
   }
+
+  @media screen and (max-width: $grid-breakpoints-sm) {
+    margin-left: 40px;
+  }
 }
 
 .navbar-sidemark {
@@ -50,6 +53,11 @@
   right: 0;
   top: 0;
   z-index: 10;
+
+  @media screen and (max-width: $grid-breakpoints-sm) {
+    width: 130px;
+    height: 130px;
+  }
 }
 
 .logo {
