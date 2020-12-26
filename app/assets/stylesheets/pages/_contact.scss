@@ -15,7 +15,7 @@ main {
     align-items: center;
 
     .main-content {
-      width: 60%;
+      width: 75%;
       height: 100vh;
       display: flex;
       justify-content: center;
@@ -28,8 +28,9 @@ main {
           margin: 50px 0 100px 0;
         }
         p {
+          font-size: 14px;
           letter-spacing: 1px;
-          width: 85%;
+          width: 70%;
           margin-bottom: 40px;
         }
         .contact-info p {
@@ -37,9 +38,23 @@ main {
           text-transform: uppercase;
           letter-spacing: 0.2rem;
           line-height: 1.6rem;
+          width: 100%;
           i {
             margin-right: 5px;
           }
+
+          @media screen and (max-width: $grid-breakpoints-sm) {
+            font-size: 10px;
+          }
+        }
+
+        @media screen and (max-width: $grid-breakpoints-md) {
+          padding-top: 100px;
+        }
+
+        @media screen and (max-width: $grid-breakpoints-sm) {
+          width: 90%;
+          padding-top: 300px;
         }
       }
 
@@ -67,6 +82,10 @@ main {
             text-transform: uppercase;
             letter-spacing: 1px;
           }
+        }
+      
+        @media screen and (max-width: $grid-breakpoints-sm) {
+          padding-bottom: 350px;
         }
       }
     }
