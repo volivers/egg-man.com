@@ -42,6 +42,10 @@ main {
           text-transform: uppercase;
           letter-spacing: 0.2rem;
           margin: 40px 0 100px 0;
+
+          @media screen and (max-width: $grid-breakpoints-sm) {
+            padding-bottom: 50px;
+          }
         }
         .avatar {
           float: right;
@@ -53,6 +57,21 @@ main {
           shape-outside: circle(50%);
           shape-margin: 5px;
           margin: 0 0 5px 5px;
+
+          @media screen and (max-width: $grid-breakpoints-md) {
+            height: 220px;
+            width: 220px;
+          }
+
+          @media screen and (max-width: $grid-breakpoints-sm) {
+            height: 170px;
+            width: 170px;
+          }
+        }
+
+        @media screen and (max-width: $grid-breakpoints-sm) {
+          width: 70%;
+          padding-top: 600px;
         }
       }
     }
