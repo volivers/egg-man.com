@@ -20,14 +20,51 @@ main {
       text-align: center;
       font-weight: lighter;
       margin: 0 0 100px 0;
+
+      @media screen and (max-width: $grid-breakpoints-sm) {
+        font-size: 220px;
+        margin: 0 0 40px 0;
+      }
     }
 
     #left {
       margin-left: 350px;
+
+      @media screen and (max-width: $grid-breakpoints-xl) {
+        margin-left: 140px;
+        }
+
+      @media screen and (max-width: $grid-breakpoints-lg) {
+        margin-left: 100px;
+        }
+
+      @media screen and (max-width: $grid-breakpoints-md) {
+        margin-left: 10px;
+        }
+
+      @media screen and (max-width: $grid-breakpoints-sm) {
+      margin-left: 10px;
+      }
     }
     
     #right {
       margin-right: 350px;
+
+      @media screen and (max-width: $grid-breakpoints-xl) {
+        margin-right: 140px;
+        }
+
+      @media screen and (max-width: $grid-breakpoints-lg) {
+        margin-right: 100px;
+        }
+
+      @media screen and (max-width: $grid-breakpoints-md) {
+        margin-right: 10px;
+        }
+
+      @media screen and (max-width: $grid-breakpoints-sm) {
+        margin-right: 10px;
+        }
     }
   }
 
@@ -51,15 +88,31 @@ main {
         &:nth-child(1) {
           margin-top: 70px;
           margin-bottom: 10px;
+
+          @media screen and (max-width: $grid-breakpoints-sm) {
+            margin-top: 90px;
+          }
         }
   
         &:nth-child(2) {
           margin-bottom: 30px;
           color: $white;
+
+          @media screen and (max-width: $grid-breakpoints-sm) {
+            margin-bottom: 20px;
+          }
         }
   
         &:nth-child(3) {
           margin-bottom: 30px;
+
+          @media screen and (max-width: $grid-breakpoints-sm) {
+            margin-bottom: 20px;
+          }
+        }
+
+        @media screen and (max-width: $grid-breakpoints-sm) {
+          font-size: 40px;
         }
       }
     }
@@ -67,6 +120,10 @@ main {
     .banner-btn {
       margin-top: 70px;
       margin-bottom: 20px;
+
+      @media screen and (max-width: $grid-breakpoints-sm) {
+        margin-top: 30px;
+      }
     }
 
     .yolk-mark {
@@ -74,8 +131,14 @@ main {
       width: 250px;
       background: url($bck-pattern) no-repeat center center;
       border-radius: 100%;
+      margin: auto;
       position: absolute;
-      top: 32vh;
+      top: 0; left: 0; bottom: 0; right: 0;
+
+      @media screen and (max-width: $grid-breakpoints-sm) {
+        height: 130px;
+        width: 130px;
+      }
     }
   }
 }

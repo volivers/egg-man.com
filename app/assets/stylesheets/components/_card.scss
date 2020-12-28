@@ -15,7 +15,8 @@
   z-index: 5;
 
   .grid-overlay {
-    background: url($bck-pattern) no-repeat center center;
+    background-image: url($banner-others);
+    background-size: contain;
     border-radius: 10px;
     height: 100%;
     width: 100%;

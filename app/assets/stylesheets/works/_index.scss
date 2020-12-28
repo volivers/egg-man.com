@@ -1,9 +1,3 @@
-$banner-pitcher: 'https://res.cloudinary.com/djlmbrvcx/image/upload/v1608617884/pitcher_banner_ovdnkl.png';
-$banner-hobbes: 'https://res.cloudinary.com/djlmbrvcx/image/upload/v1608617884/hobbes_banner_gfetbq.png';
-$banner-mulbtree: 'https://res.cloudinary.com/djlmbrvcx/image/upload/v1608609645/mulbtree_nyzei9.jpg';
-$banner-cat: 'https://res.cloudinary.com/djlmbrvcx/image/upload/v1608609645/cat_lhfynl.jpg';
-$banner-uxjap: 'https://res.cloudinary.com/djlmbrvcx/image/upload/v1608609645/uxjap_yugkea.jpg';
-
 body {
   margin: 0;
   padding: 0;
@@ -42,22 +36,32 @@ main {
 
         .card-category:nth-child(1) {
           background-image: url($banner-pitcher);
+          background-size: cover;
         }
 
         .card-category:nth-child(2) {
           background-image: url($banner-hobbes);
+          background-size: cover;
         }
 
         .card-category:nth-child(3) {
           background-image: url($banner-mulbtree);
+          background-size: cover;
         }
 
         .card-category:nth-child(4) {
           background-image: url($banner-cat);
+          background-size: cover;
         }
 
         .card-category:nth-child(5) {
           background-image: url($banner-uxjap);
+          background-size: cover;
+        }
+
+        .card-category:nth-child(6) {
+          background-image: url($banner-others);
+          background-size: contain;
         }
 
         @media screen and (max-width: $grid-breakpoints-md) {
