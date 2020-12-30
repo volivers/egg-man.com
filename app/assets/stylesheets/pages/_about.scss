@@ -89,7 +89,7 @@ main {
 
         @media screen and (max-width: $grid-breakpoints-md) {
           width: 70%;
-          padding-top: 100px;
+          padding-top: 0;
         }
 
         @media screen and (max-width: $grid-breakpoints-sm) {

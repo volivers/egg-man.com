@@ -40,4 +40,11 @@ $grid-breakpoints-md: 768px;
 $grid-breakpoints-lg: 992px;
 $grid-breakpoints-xl: 1200px;
 $grid-breakpoints-xxl: 1400px;
-  
+
+// Navbar colors
+$navbar-light-color: $angular-black-50;
+$navbar-light-hover-color: $angular-black-75;
+$navbar-light-active-color: $angular-black-90;
+
+// Borders
+$navbar-light-toggler-border-color: none;

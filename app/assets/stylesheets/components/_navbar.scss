@@ -60,6 +60,35 @@
   }
 }
 
+.nav-link {
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: $navbar-light-hover-color;
+  }
+}
+
+#contact-link {
+  color: $white;
+  transition: color 0.2s ease-in-out;
+
+  @media screen and (max-width: $grid-breakpoints-sm) {
+    color: $navbar-light-color;
+  }
+
+  &:hover {
+    color: $navbar-light-hover-color;
+  }
+
+  &.active {
+    color: $navbar-light-active-color;
+  }
+}
+
+.navbar-toggler {
+  z-index: 50;
+}
+
 .logo {
   margin: 10px 0 0 40px;
 }

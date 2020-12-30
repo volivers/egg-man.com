@@ -65,12 +65,12 @@ main {
         }
 
         @media screen and (max-width: $grid-breakpoints-md) {
-          padding-top: 400px;
+          padding-top: 100px;
           padding-bottom: 100px;
         }
       
         @media screen and (max-width: $grid-breakpoints-sm) {
-          padding-top: 1000px;
+          padding-top: 900px;
           padding-bottom: 100px;
         }
       }

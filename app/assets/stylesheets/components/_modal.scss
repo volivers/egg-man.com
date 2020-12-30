@@ -1,6 +1,10 @@
 .modal-content {
   border-radius: 10px;
 
+  .modal-header {
+    border: none;
+  }
+
   p {
     font-size: 14px;
     letter-spacing: 1px;
