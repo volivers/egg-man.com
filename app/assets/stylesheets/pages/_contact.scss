@@ -43,16 +43,16 @@ main {
             margin-right: 5px;
           }
 
-          @media screen and (max-width: $grid-breakpoints-sm) {
+          @media screen and (max-width: $smartphones-xl) {
             font-size: 10px;
           }
         }
 
-        @media screen and (max-width: $grid-breakpoints-md) {
+        @media screen and (max-width: $tablets-md) {
           padding-top: 100px;
         }
 
-        @media screen and (max-width: $grid-breakpoints-sm) {
+        @media screen and (max-width: $smartphones-xl) {
           width: 90%;
           padding-top: 300px;
         }
@@ -84,7 +84,7 @@ main {
           }
         }
       
-        @media screen and (max-width: $grid-breakpoints-sm) {
+        @media screen and (max-width: $smartphones-xl) {
           padding-bottom: 350px;
         }
       }

@@ -34,12 +34,14 @@ $banner-uxjap: 'https://res.cloudinary.com/djlmbrvcx/image/upload/v1608609645/ux
 $banner-others: 'https://res.cloudinary.com/djlmbrvcx/image/upload/v1609111431/yolk_bmrnae.png';
 
 // Grid breakpoints
-$grid-breakpoints-xs: 0;
-$grid-breakpoints-sm: 576px;
-$grid-breakpoints-md: 768px;
-$grid-breakpoints-lg: 992px;
-$grid-breakpoints-xl: 1200px;
-$grid-breakpoints-xxl: 1400px;
+$smartphones-xs: 320px;
+$smartphones-md: 480px;
+$smartphones-xl: 576px; // $grid-breakpoints-sm
+$tablets-md: 768px; // $grid-breakpoints-md
+$tablets-xl: 992px; // $grid-breakpoints-lg
+$desktops-md: 1224px; // $grid-breakpoints-xl
+$desktops-xl: 1400px; // $grid-breakpoints-xxl
+$desktops-xxl: 1824px;
 
 // Navbar colors
 $navbar-light-color: $angular-black-50;

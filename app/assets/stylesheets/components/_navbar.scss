@@ -61,7 +61,7 @@
 }
 
 .nav-link {
-  transition: color 0.2s ease-in-out;
+  transition: color 0.3s ease-in-out;
 
   &:hover {
     color: $navbar-light-hover-color;
@@ -70,7 +70,7 @@
 
 #contact-link {
   color: $white;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.3s ease-in-out;
 
   @media screen and (max-width: $grid-breakpoints-sm) {
     color: $navbar-light-color;

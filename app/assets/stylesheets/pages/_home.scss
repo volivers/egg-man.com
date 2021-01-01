@@ -22,7 +22,7 @@ main {
       font-weight: lighter;
       margin: 0 0 100px 0;
 
-      @media screen and (max-width: $grid-breakpoints-sm) {
+      @media screen and (max-width: $smartphones-xl) {
         font-size: 220px;
         margin: 0 0 40px 0;
       }
@@ -31,19 +31,19 @@ main {
     #left {
       margin-left: 350px;
 
-      @media screen and (max-width: $grid-breakpoints-xl) {
+      @media screen and (max-width: $desktops-md) {
         margin-left: 140px;
         }
 
-      @media screen and (max-width: $grid-breakpoints-lg) {
+      @media screen and (max-width: $tablets-xl) {
         margin-left: 100px;
         }
 
-      @media screen and (max-width: $grid-breakpoints-md) {
+      @media screen and (max-width: $tablets-md) {
         margin-left: 10px;
         }
 
-      @media screen and (max-width: $grid-breakpoints-sm) {
+      @media screen and (max-width: $smartphones-xl) {
       margin-left: 10px;
       }
     }
@@ -51,19 +51,19 @@ main {
     #right {
       margin-right: 350px;
 
-      @media screen and (max-width: $grid-breakpoints-xl) {
+      @media screen and (max-width: $desktops-md) {
         margin-right: 140px;
         }
 
-      @media screen and (max-width: $grid-breakpoints-lg) {
+      @media screen and (max-width: $tablets-xl) {
         margin-right: 100px;
         }
 
-      @media screen and (max-width: $grid-breakpoints-md) {
+      @media screen and (max-width: $tablets-md) {
         margin-right: 10px;
         }
 
-      @media screen and (max-width: $grid-breakpoints-sm) {
+      @media screen and (max-width: $smartphones-xl) {
         margin-right: 10px;
         }
     }
@@ -90,7 +90,7 @@ main {
           margin-top: 70px;
           margin-bottom: 10px;
 
-          @media screen and (max-width: $grid-breakpoints-sm) {
+          @media screen and (max-width: $smartphones-xl) {
             margin-top: 90px;
           }
         }
@@ -99,7 +99,7 @@ main {
           margin-bottom: 30px;
           color: $white;
 
-          @media screen and (max-width: $grid-breakpoints-sm) {
+          @media screen and (max-width: $smartphones-xl) {
             margin-bottom: 20px;
           }
         }
@@ -107,12 +107,12 @@ main {
         &:nth-child(3) {
           margin-bottom: 30px;
 
-          @media screen and (max-width: $grid-breakpoints-sm) {
+          @media screen and (max-width: $smartphones-xl) {
             margin-bottom: 20px;
           }
         }
 
-        @media screen and (max-width: $grid-breakpoints-sm) {
+        @media screen and (max-width: $smartphones-xl) {
           font-size: 40px;
         }
       }
@@ -122,7 +122,7 @@ main {
       margin-top: 70px;
       margin-bottom: 20px;
 
-      @media screen and (max-width: $grid-breakpoints-sm) {
+      @media screen and (max-width: $smartphones-xl) {
         margin-top: 30px;
       }
     }
@@ -144,7 +144,7 @@ main {
           75% { border-radius: 40% 60% 70% 30% / 47% 62% 38% 53%;}
       }
 
-      @media screen and (max-width: $grid-breakpoints-sm) {
+      @media screen and (max-width: $smartphones-xl) {
         height: 130px;
         width: 130px;
       }

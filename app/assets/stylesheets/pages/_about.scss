@@ -43,7 +43,7 @@ main {
           letter-spacing: 0.2rem;
           margin: 40px 0 100px 0;
 
-          @media screen and (max-width: $grid-breakpoints-sm) {
+          @media screen and (max-width: $smartphones-xl) {
             padding-bottom: 50px;
           }
         }
@@ -58,41 +58,41 @@ main {
           shape-margin: 5px;
           margin: 0 0 5px 5px;
 
-          @media screen and (max-width: $grid-breakpoints-xl) {
+          @media screen and (max-width: $desktops-md) {
             height: 320px;
             width: 320px;
           }
 
-          @media screen and (max-width: $grid-breakpoints-lg) {
+          @media screen and (max-width: $tablets-xl) {
             height: 270px;
             width: 270px;
           }
 
-          @media screen and (max-width: $grid-breakpoints-md) {
+          @media screen and (max-width: $tablets-md) {
             height: 220px;
             width: 220px;
           }
 
-          @media screen and (max-width: $grid-breakpoints-sm) {
+          @media screen and (max-width: $smartphones-xl) {
             height: 170px;
             width: 170px;
           }
         }
 
-        @media screen and (max-width: $grid-breakpoints-xl) {
+        @media screen and (max-width: $desktops-md) {
           padding-top: 100px;
         }
 
-        @media screen and (max-width: $grid-breakpoints-lg) {
+        @media screen and (max-width: $tablets-xl) {
           padding-top: 100px;
         }
 
-        @media screen and (max-width: $grid-breakpoints-md) {
+        @media screen and (max-width: $tablets-md) {
           width: 70%;
           padding-top: 0;
         }
 
-        @media screen and (max-width: $grid-breakpoints-sm) {
+        @media screen and (max-width: $smartphones-xl) {
           width: 70%;
           padding-top: 500px;
         }
