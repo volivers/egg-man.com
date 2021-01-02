@@ -22,17 +22,38 @@ main {
       font-weight: lighter;
       margin: 0 0 100px 0;
 
+      @media screen and (max-width: $tablets-xl) {
+        font-size: 350px;
+      }
+
+      @media screen and (max-width: $tablets-md) {
+        font-size: 300px;
+      }
+
       @media screen and (max-width: $smartphones-xl) {
         font-size: 220px;
         margin: 0 0 40px 0;
+      }
+
+      @media screen and (max-width: $smartphones-xs) {
+        font-size: 160px;
+        margin: 0 0 30px 0;
       }
     }
 
     #left {
       margin-left: 350px;
 
+      @media screen and (max-width: $desktops-xxl) {
+        margin-left: 330px;
+        }
+
+      @media screen and (max-width: $desktops-xl) {
+        margin-left: 250px;
+        }
+
       @media screen and (max-width: $desktops-md) {
-        margin-left: 140px;
+        margin-left: 160px;
         }
 
       @media screen and (max-width: $tablets-xl) {
@@ -40,32 +61,56 @@ main {
         }
 
       @media screen and (max-width: $tablets-md) {
-        margin-left: 10px;
+        margin-left: 60px;
         }
 
       @media screen and (max-width: $smartphones-xl) {
-      margin-left: 10px;
-      }
+      margin-left: 50px;
+        }
+
+      @media screen and (max-width: $smartphones-md) {
+        margin-left: 5px;
+        }
+
+      @media screen and (max-width: $smartphones-xs) {
+        margin-left: 0px;
+        }
     }
     
     #right {
       margin-right: 350px;
 
-      @media screen and (max-width: $desktops-md) {
-        margin-right: 140px;
+      @media screen and (max-width: $desktops-xxl) {
+        margin-right: 330px;
         }
+
+      @media screen and (max-width: $desktops-xl) {
+        margin-right: 250px;
+      }
+
+      @media screen and (max-width: $desktops-md) {
+        margin-right: 160px;
+      }
 
       @media screen and (max-width: $tablets-xl) {
         margin-right: 100px;
-        }
+      }
 
       @media screen and (max-width: $tablets-md) {
-        margin-right: 10px;
-        }
+        margin-right: 60px;
+      }
 
       @media screen and (max-width: $smartphones-xl) {
-        margin-right: 10px;
-        }
+        margin-right: 50px;
+      }
+
+      @media screen and (max-width: $smartphones-md) {
+        margin-right: 5px;
+      }
+
+      @media screen and (max-width: $smartphones-xs) {
+        margin-right: 0px;
+      }
     }
   }
 
@@ -112,8 +157,24 @@ main {
           }
         }
 
+        @media screen and (max-width: $tablets-xl) {
+          font-size: 70px;
+        }
+
+        @media screen and (max-width: $tablets-md) {
+          font-size: 60px;
+        }
+
         @media screen and (max-width: $smartphones-xl) {
           font-size: 40px;
+        }
+
+        @media screen and (max-width: $smartphones-md) {
+          font-size: 35px;
+        }
+
+        @media screen and (max-width: $smartphones-xs) {
+          font-size: 32px;
         }
       }
     }
