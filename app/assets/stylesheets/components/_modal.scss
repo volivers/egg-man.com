@@ -18,6 +18,11 @@
     .content-left {
       width: 140%;
       margin-right: 60px;
+
+      @media screen and (max-width: $smartphones-xl) {
+        width: 100%;
+        margin-right: 0px;
+      }
     }
 
 
@@ -25,6 +30,10 @@
       text-transform: uppercase;
       letter-spacing: 0.2rem;
       margin-bottom: 5px;
+    }
+
+    @media screen and (max-width: $smartphones-xl) {
+      flex-direction: column;
     }
   }
 
