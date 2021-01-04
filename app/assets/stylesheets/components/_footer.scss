@@ -15,6 +15,10 @@
     justify-content: center;
     height: 110px;
   }
+
+  @media screen and (max-width: $smartphones-xs) {
+    height: 140px;
+  }
 }
 .footer-copyright p {
     font-size: 12px;
@@ -30,19 +34,27 @@
   justify-content: space-around;
 
   @media screen and (max-width: $desktops-md) {
-    width: 15%;
-  }
-
-  @media screen and (max-width: $tablets-xl) {
     width: 20%;
   }
 
-  @media screen and (max-width: $tablets-md) {
+  @media screen and (max-width: $tablets-xl) {
     width: 25%;
+  }
+
+  @media screen and (max-width: $tablets-md) {
+    width: 30%;
   }
 
   @media screen and (max-width: $smartphones-xl) {
     width: 50%;
+  }
+
+  @media screen and (max-width: $smartphones-md) {
+    width: 60%;
+  }
+
+  @media screen and (max-width: $smartphones-xs) {
+    width: 70%;
   }
 }
 .footer-links a {
