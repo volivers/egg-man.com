@@ -65,8 +65,23 @@ main {
           background-size: contain;
         }
 
-        @media screen and (max-width: $tablets-md) {
-          padding-top: 100px;
+        @media screen and (max-width: $tablets-xl) and (max-height: $portrait-xl) {
+          padding-top: 400px;
+          padding-bottom: 100px;
+        }
+
+        @media screen and (max-width: $tablets-xl) and (max-height: $portrait-md) {
+          padding-top: 500px;
+          padding-bottom: 100px;
+        }
+
+        @media screen and (max-width: $tablets-md) and (max-height: $portrait-xl) {
+          padding-top: 800px;
+          padding-bottom: 100px;
+        }
+
+        @media screen and (max-width: $tablets-md) and (max-height: $portrait-md) {
+          padding-top: 1000px;
           padding-bottom: 100px;
         }
       

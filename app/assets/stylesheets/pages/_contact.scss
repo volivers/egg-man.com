@@ -20,6 +20,7 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-top: 60px;
 
       .contact-title {
         width: 60%;
@@ -46,6 +47,11 @@ main {
           @media screen and (max-width: $smartphones-xl) {
             font-size: 10px;
           }
+
+          @media screen and (max-width: $smartphones-md) {
+            font-size: 9px;
+            letter-spacing: 0.1rem;
+          }
         }
 
         @media screen and (max-width: $tablets-md) {
@@ -67,6 +73,7 @@ main {
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
+        padding-bottom: 150px;
       
         .intro-text-grid-item {
           img {
@@ -83,7 +90,7 @@ main {
             letter-spacing: 1px;
           }
         }
-      
+
         @media screen and (max-width: $smartphones-xl) {
           padding-bottom: 350px;
         }

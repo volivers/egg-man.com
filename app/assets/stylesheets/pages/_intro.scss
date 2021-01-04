@@ -21,6 +21,11 @@ main {
       margin: 35px 0 0;
       display: inline-block;
       vertical-align: text-top;
+
+      @media screen and (max-width: $smartphones-md) {
+        font-size: 8px;
+        margin: 30px 0 0;
+      }
     }
     .dot {
       vertical-align: middle;
@@ -52,7 +57,11 @@ main {
   justify-content: center;
 
   .intro-btn {
-    margin-top: 50px;
+    margin: 50px 0 20px 0;
+
+    @media screen and (max-width: $smartphones-md) {
+      margin: 30px 0 20px 0;
+    }
   }
 }
 
@@ -72,7 +81,11 @@ main {
     margin: 20px 0 20px 0;
 
       @media screen and (max-width: $smartphones-xl) {
-        margin: 20px 0 0 0;
+        margin: 50px 0 0 0;
+      }
+
+      @media screen and (max-width: $smartphones-md) {
+        font-size: 12px;
       }
     }
 
@@ -84,6 +97,13 @@ main {
     margin: 0 auto;
     display: block;
     margin-top: 50px;
+    flex-shrink: 0;
+    
+    @media screen and (max-width: $smartphones-md), (max-width: $smartphones-xl) {
+      width: 80px;
+      height: 110px;
+      margin-top: 30px;
+    }
   }
 }
 
@@ -110,7 +130,15 @@ main {
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 1px;
+
+      @media screen and (max-width: $smartphones-md) {
+        font-size: 8px;
+      }
     }
+  }
+
+  @media screen and (max-width: $smartphones-md) {
+    margin-bottom: 30px;
   }
 }
 
@@ -133,7 +161,14 @@ main {
     height: 130px;
     margin: auto;
     display: block;
+    flex-shrink: 0;
+
+    @media screen and (max-width: $smartphones-md) {
+      width: 80px;
+      height: 110px;
+    }
   }
+
   p {
     color: $white;
     font-family: $headers-font;
