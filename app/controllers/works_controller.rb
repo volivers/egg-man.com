@@ -1,6 +1,4 @@
 class WorksController < ApplicationController
-  # before_action :set_work, only: [:show]
-
   def index
     @works = Work.all
 
@@ -10,16 +8,4 @@ class WorksController < ApplicationController
     @work_4 = Work.find(4)
     @work_5 = Work.find(5)
   end
-
-  # def show
-  #   respond_to do |format|
-  #     format.js
-  #   end
-  # end
-
-  # private
-
-  # def set_work
-  #   @work = Work.find(params[:id])
-  # end
 end

@@ -19,62 +19,66 @@
   @media screen and (max-width: $smartphones-xs) {
     height: 140px;
   }
-}
-.footer-copyright p {
+
+  .footer-links {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    a {
+      color: $angular-black-75;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 0px 10px;
+    
+      &:hover {
+        color: $white;
+        transform: rotate(360deg);
+        transition: all ease 0.5s;
+      }
+    }
+  
+    .yolk-social {
+      height: 40px;
+      width: 40px;
+      background: url($bck-pattern) no-repeat center center;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    @media screen and (max-width: $desktops-md) {
+      width: 20%;
+    }
+  
+    @media screen and (max-width: $tablets-xl) {
+      width: 25%;
+    }
+  
+    @media screen and (max-width: $tablets-md) {
+      width: 30%;
+    }
+  
+    @media screen and (max-width: $smartphones-xl) {
+      width: 50%;
+    }
+  
+    @media screen and (max-width: $smartphones-md) {
+      width: 60%;
+    }
+  
+    @media screen and (max-width: $smartphones-xs) {
+      width: 70%;
+    }
+  }
+
+  .footer-copyright p {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     margin-top: 15px;
     text-align: center;
-}
-.footer-links {
-  width: 15%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  @media screen and (max-width: $desktops-md) {
-    width: 20%;
   }
-
-  @media screen and (max-width: $tablets-xl) {
-    width: 25%;
-  }
-
-  @media screen and (max-width: $tablets-md) {
-    width: 30%;
-  }
-
-  @media screen and (max-width: $smartphones-xl) {
-    width: 50%;
-  }
-
-  @media screen and (max-width: $smartphones-md) {
-    width: 60%;
-  }
-
-  @media screen and (max-width: $smartphones-xs) {
-    width: 70%;
-  }
-}
-.footer-links a {
-  color: $angular-black-75;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 0px 10px;
-}
-.footer-links a:hover {
-  color: $white;
-  transform: rotate(360deg);
-  transition: all ease 0.5s;
-}
-
-.yolk-social {
-  height: 40px;
-  width: 40px;
-  background: url($bck-pattern) no-repeat center center;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
