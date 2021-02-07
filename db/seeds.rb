@@ -12,7 +12,7 @@ puts 'Done, old Works cleaned! 🎉🎉🎉'
 
 # MoMA Dashboard
 puts 'Creating MoMA Dashboard... 🏆'
-Work.create!( title: 'MoMA Dashboard',
+Work.create!( title: 'MoMA dashboard',
               description: "In the art world, it is rumoured that Banksy along
               with a team of famous street artists are launching a top secret plan
               to break into the Museum of Modern Art, and replace their artworks

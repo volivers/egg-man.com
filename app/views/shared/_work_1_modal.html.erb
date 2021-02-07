@@ -3,7 +3,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header mx-2">
-        <h1 class="modal-title mt-4 mb-2 ml-3" id="exampleModalLongTitle"><%= @work_1.title.downcase %></h1>
+        <h1 class="modal-title mt-4 mb-2 ml-3" id="exampleModalLongTitle"><%= @work_1.title %></h1>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -30,8 +30,8 @@
         </div>
 
         <div class="work-extras">
-          <a href="https://the-pitchers.herokuapp.com/" target="_blank" class="btn btn-flat" role="button">
-            Visit <%= @work_1.title.downcase %> <i class="fas fa-arrow-right"></i>
+          <a href="https://moma-dashboard.netlify.app/" target="_blank" class="btn btn-flat" role="button">
+            Visit <%= @work_1.title %> <i class="fas fa-arrow-right"></i>
           </a>
           <img src="https://res.cloudinary.com/djlmbrvcx/image/upload/v1608790265/pitcher_long_xdxpjh.png" alt="Pitcher screens" width="100%">
         </div>
