@@ -10,8 +10,23 @@ puts 'Cleaning db... 🔥🔥🔥'
 Work.destroy_all
 puts 'Done, old Works cleaned! 🎉🎉🎉'
 
+# MoMA Dashboard
+puts 'Creating MoMA Dashboard... 🏆'
+Work.create!( title: 'MoMA Dashboard',
+              description: "In the art world, it is rumoured that Banksy along
+              with a team of famous street artists are launching a top secret plan
+              to break into the Museum of Modern Art, and replace their artworks
+              with street art ones. To make this mighty plan happen, they need a
+              system where they can create and organize tasks, while tracking their
+              progress as well as all the data of the artworks to be replaced.     
+              The goal of this project was to design and build a single interface
+              displaying the team's tasks, data and timeline.",
+              client: "Vasco Oliveira ©",
+              role: 'Web Developer',
+              technologies: ["React", "JavaScript", "Context API", "Material-UI", "ApexCharts.js", "Sass", "Figma", "Git"] )
+
 # Pitcher
-puts 'Creating Pitcher... 🏆'
+puts 'Creating Pitcher... 🏆🏆'
 Work.create!( title: 'Pitcher',
               description: "The Pitcher is web app for you to design, build and
               publish product demos, from a simple user journey to a live
@@ -25,7 +40,7 @@ Work.create!( title: 'Pitcher',
               technologies: ["Ruby on Rails", "JavaScript", "PostgreSQL", "Sass", "Bootstrap", "jQuery", "Figma", "Git"] )
 
 # Hobbes
-puts 'Creating Hobbes... 🏆🏆'
+puts 'Creating Hobbes... 🏆🏆🏆'
 Work.create!( title: 'Hobbes',
               description: "Hobbes is web app for you to explore, create
               and share hobbies with the online community. Let's say you
@@ -37,7 +52,7 @@ Work.create!( title: 'Hobbes',
               technologies: ["Ruby on Rails", "JavaScript", "PostgreSQL", "Sass", "Bootstrap", "jQuery", "Figma", "Git"] )
 
 # Mulberry Tree
-puts 'Creating Mulberry Tree... 🏆🏆🏆'
+puts 'Creating Mulberry Tree... 🏆🏆🏆🏆'
 Work.create!( title: 'Mulberry Tree',
               description: "The Mulberry Tree is a web app
               specifically developed for node and portfolio management,
@@ -53,7 +68,7 @@ Work.create!( title: 'Mulberry Tree',
               technologies: ["AngularJS", "ag-Grid", "Sass", "Sketch", "Abstract", "Photoshop"] )
 
 # Credit Admin Tool
-puts 'Creating Credit Admin Tool... 🏆🏆🏆🏆'
+puts 'Creating Credit Admin Tool... 🏆🏆🏆🏆🏆'
 Work.create!( title: 'Credit Admin Tool',
               description: "The Credit Admin Tool is a web app
               specifically developed for credit management, so that
@@ -65,16 +80,3 @@ Work.create!( title: 'Credit Admin Tool',
               client: "BNP Paribas ©",
               role: 'UX/UI Designer',
               technologies: ["AngularJS", "ag-Grid", "Sass", "Sketch", "Abstract", "Photoshop"] )
-
-# UX jap
-puts 'Creating UX jap... 🏆🏆🏆🏆🏆'
-Work.create!( title: 'UX jap',
-              description: "UX jap is a website aiming at building
-              a cross cultural UX library with the best UX tips and
-              knowledge from Japan to the world. As a research project,
-              it allows a deeper understanding of the contrasts between
-              Eastern and Western trends regarding app usage, aesthetics,
-              UI patterns, UX vocabulary and, of course, demographics.",
-              client: "Vasco Oliveira ©",
-              role: 'UX Designer • Web Developer',
-              technologies: ["JavaScript", "Sass", "Bootstrap", "jQuery", "Figma"] )
