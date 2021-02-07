@@ -22,7 +22,7 @@ Work.create!( title: 'Pitcher',
               needs based on a Stand Point, View Point, and Action Point.",
               client: "Le Wagon ©",
               role: 'Web Developer',
-              technologies: ["Ruby on Rails", "JavaScript", "HTML/CSS", "Bootstrap", "jQuery", "Figma", "git"] )
+              technologies: ["Ruby on Rails", "JavaScript", "PostgreSQL", "Sass", "Bootstrap", "jQuery", "Figma", "Git"] )
 
 # Hobbes
 puts 'Creating Hobbes... 🏆🏆'
@@ -34,7 +34,7 @@ Work.create!( title: 'Hobbes',
               and find a Hobbe near you, according to your skillset.",
               client: "Le Wagon ©",
               role: 'Web Developer',
-              technologies: ["Ruby on Rails", "JavaScript", "HTML/CSS", "Bootstrap", "jQuery", "Figma", "git"] )
+              technologies: ["Ruby on Rails", "JavaScript", "PostgreSQL", "Sass", "Bootstrap", "jQuery", "Figma", "Git"] )
 
 # Mulberry Tree
 puts 'Creating Mulberry Tree... 🏆🏆🏆'
@@ -50,7 +50,7 @@ Work.create!( title: 'Mulberry Tree',
               login access.",
               client: "BNP Paribas ©",
               role: "UX/UI Designer",
-              technologies: ["Angular", "ag-Grid", "HTML/CSS", "Sketch", "Abstract", "Photoshop"] )
+              technologies: ["AngularJS", "ag-Grid", "Sass", "Sketch", "Abstract", "Photoshop"] )
 
 # Credit Admin Tool
 puts 'Creating Credit Admin Tool... 🏆🏆🏆🏆'
@@ -64,7 +64,7 @@ Work.create!( title: 'Credit Admin Tool',
               navigation levels (Group, Counterparty and Credit Line).",
               client: "BNP Paribas ©",
               role: 'UX/UI Designer',
-              technologies: ["Angular", "ag-Grid", "HTML/CSS", "Sketch", "Abstract", "Photoshop"] )
+              technologies: ["AngularJS", "ag-Grid", "Sass", "Sketch", "Abstract", "Photoshop"] )
 
 # UX jap
 puts 'Creating UX jap... 🏆🏆🏆🏆🏆'
@@ -77,4 +77,4 @@ Work.create!( title: 'UX jap',
               UI patterns, UX vocabulary and, of course, demographics.",
               client: "Vasco Oliveira ©",
               role: 'UX Designer • Web Developer',
-              technologies: ["JavaScript", "HTML/CSS", "Bootstrap", "jQuery", "Figma"] )
+              technologies: ["JavaScript", "Sass", "Bootstrap", "jQuery", "Figma"] )
